@@ -54,3 +54,21 @@ gsap.from('.animate-card', {
     stagger: 0.1,
     delay: 0.2
 });
+
+gsap.from('.animate-team', {
+    scrollTrigger: '.animate-team',
+    duration: 1,
+    opacity: 0,
+    y: -150,
+    stagger: 0.3,
+    delay: 0.2
+});
+
+gsap.from('.animate-email', {
+    scrollTrigger: '.animate-email',
+    duration: 0.8,
+    opacity: 0,
+    y: -150,
+    stagger: 0.25,
+    delay: 0.6
+});
